@@ -1,0 +1,132 @@
+.loggedOut {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  img {
+    width: 130px;
+  }
+}
+
+.mainBanner {
+  background-image: url(../images/signIn-bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  h1 {
+    font-size: 35px;
+    text-shadow: 0px 0px 10px #fc0505;
+    margin-bottom: 80px;
+  }
+  .gifImg {
+    width: 40vw;
+    max-width: 270px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -5px;
+  }
+}
+
+.card-container {
+  background: #000000;
+  color: #ffffff;
+  padding: 50px 0;
+  .cardTitle {
+    text-align: center;
+    h2 {
+      margin: 0 auto 20px;
+      font-weight: bold;
+      max-width: 485px;
+    }
+    p {
+      margin: auto;
+      font-size: 19px;
+      max-width: 495px;
+    }
+  }
+  .videoContainer {
+    position: relative;
+    padding: 78px 0;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 530px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    video {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 80px;
+    }
+  }
+  .diffrentOne {
+    padding: 37px 85px 72px;
+    video {
+      max-width: 290px;
+      margin-bottom: 120px;
+    }
+  }
+}
+
+.informationSection,
+.footerSection {
+  background: #000000;
+}
+
+@media (min-width: 576px) {
+  .mainBanner h1 {
+    font-size: 45px;
+  }
+
+  .card-container .cardTitle {
+    h2 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+
+  .accordionTitle {
+    font-size: 35px;
+  }
+  .accordionText {
+    font-size: 20px !important;
+  }
+  .accordionIcon {
+    font-size: 30px !important;
+  }
+}
+@media (min-width: 768px) {
+  .mainBanner h1 {
+    font-size: 55px;
+  }
+  .card-container .cardTitle {
+    h2 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  .accordionTitle {
+    font-size: 45px;
+  }
+  .accordionText {
+    font-size: 25px !important;
+  }
+  .accordionIcon {
+    font-size: 35px !important;
+  }
+}
+@media (min-width: 992px) {
+  .card-container .cardTitle {
+    margin-bottom: 100px;
+  }
+} 

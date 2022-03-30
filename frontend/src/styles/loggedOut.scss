@@ -1,0 +1,30 @@
+.netflexImg {
+  width: 180px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.footerLight {
+  background: #000000c0;
+  height: 250px;
+  flex-direction: column;
+}
+
+.footerIcons {
+  color: #f8f6f6;
+  font-size: 40px;
+  margin: 20px;
+  &:hover {
+    color: #ff0000;
+  }
+}
+
+.footerIconsImg {
+  display: inline-block;
+  margin: 20px;
+  width: 30px;
+  height: 40px;
+  &:hover {
+    content: url(../images/netflixFontRed.png) !important;
+  }
+}

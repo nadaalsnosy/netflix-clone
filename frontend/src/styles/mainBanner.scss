@@ -1,0 +1,91 @@
+.mainContainer {
+  max-height: 95vh;
+  position: relative;
+  .bannerOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  // img 
+  video 
+  {
+    width: 100%;
+    max-height: 95vh;
+    object-fit: cover;
+  }
+  .bannerInfo {
+    .selectContainer {
+      position: absolute;
+      bottom: 145px;
+      top: 55px;
+    }
+    .movieBannerContainer {
+      position: absolute;
+      bottom: 10px;
+      p {
+        width: 200px;
+        font-size: 12px;
+        line-height: 14px;
+      }
+      .typeTitle {
+        font-size: 25px;
+      }
+    }
+  }
+  .selectContainer {
+    .dropdown-menu {
+      min-width: 100px !important;
+      .dropdown-item {
+        cursor: pointer;
+      }
+    }
+  }
+  .banberBtn {
+    padding: 4px 10px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .mainContainer .bannerInfo {
+    .selectContainer {
+      bottom: 200px;
+    }
+    .movieBannerContainer {
+      bottom: 50px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .mainContainer .bannerInfo {
+    .selectContainer {
+      bottom: 270px;
+    }
+    .movieBannerContainer {
+      bottom: 80px;
+      p {
+        width: 250px;
+        font-size: 15px;
+        line-height: 17px;
+      }
+      .typeTitle {
+        font-size: 35px;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .mainContainer .bannerInfo {
+    .selectContainer {
+      margin-bottom: 70px !important;
+      bottom: 300px;
+      .typeTitle {
+        font-size: 55px;
+      }
+    }
+    .movieBannerContainer {
+      bottom: 150px;
+    }
+  }
+}

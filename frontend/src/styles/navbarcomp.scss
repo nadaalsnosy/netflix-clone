@@ -1,0 +1,47 @@
+.netflix {
+  margin-right: 40px;
+  height: 20px;
+}
+.avatar {
+  width: 30px;
+  height: 32px;
+  border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.collasible-nav-dropdown {
+  content: "url(../images//avatar.png) " !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #383c41 !important;
+}
+.nav-item .dropdown-menu {
+  position: absolute !important;
+  background-color: #212529e8 !important;
+  border: 1.5px solid #616161f1 !important;
+  border-radius: 0px !important;
+  top: 50px !important ;
+  left: -110px !important;
+}
+.searchInput {
+  padding: 2px 10px 4px !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    border: 0 !important;
+  }
+  .bg-lg-black {
+    background: #000000 !important;
+  }
+  .homeNavbar {
+    background: linear-gradient(
+      to top,
+      transparent 0%,
+      #0000009e,
+      #00000052
+    ) !important;
+  }
+}

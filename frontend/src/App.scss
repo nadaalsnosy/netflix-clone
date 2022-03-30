@@ -1,0 +1,21 @@
+@import "./styles/common.scss";
+@import "./styles/logged.scss";
+@import "./styles/modified.scss";
+@import "./styles/loggedOut.scss";
+@import "./styles/navbarcomp.scss";
+@import "./styles/loggedOutHome.scss";
+@import "./styles/mainBanner.scss";
+@import "./styles/movieCard.scss";
+@import "./styles/list.scss";
+@import "./styles/videoPage.scss";
+@import "./styles/profile.scss";
+@import "./styles/searchPage.scss";
+@import "./styles/userList.scss";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  justify-content: space-between;
+}

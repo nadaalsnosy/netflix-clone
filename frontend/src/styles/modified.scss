@@ -1,0 +1,45 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.bg-white:hover {
+  background: #ececec !important;
+}
+
+.slick-list {
+  overflow: visible;
+}
+.slick-slide {
+  position: relative;
+}
+
+.modal-header .btn-close {
+  margin: 0;
+}
+
+.big-spinner {
+  width: 4rem;
+  height: 4rem;
+  border: 0.6rem solid currentColor;
+  border-right-color: transparent;
+}
+
+.listCards {
+  flex-grow: 1;
+  min-width: 250px;
+  max-width: 280px;
+  width: 250px;
+  padding: 10px;
+  .cardItem {
+    height: unset !important;
+    overflow: visible !important;
+    &:hover {
+      width: unset;
+      height: unset;
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+  }
+}
