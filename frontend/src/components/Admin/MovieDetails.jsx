@@ -13,11 +13,11 @@ const movieDetails = {
   _id: "UnKNOWN",
   title: "UnKNOWN TITLE",
   desc: "This description is not defined as you did not finish all data",
-  img: "https://firebasestorage.googleapis.com/v0/b/netflix-9e61f.appspot.com/o/photos%2FspiderMan.jpg?alt=media&token=e9e83c9f-7bbd-4dea-80b5-524849c1de81",
+  img: "https://res.cloudinary.com/netflix-mearn/image/upload/v1648657236/netflix/photos/download_m43dct.jpg",
   trailer:
-    "https://firebasestorage.googleapis.com/v0/b/netflix-9e61f.appspot.com/o/spiderMan.mp4?alt=media&token=ad4ed7e7-a46f-44ef-b56f-7e1e4718cb68",
+    "https://res.cloudinary.com/netflix-mearn/video/upload/v1648849488/netflix/videos/Pulcino_Pio_-_El_Pollito_Pio_r9qpio.mp4",
   video:
-    "https://firebasestorage.googleapis.com/v0/b/netflix-9e61f.appspot.com/o/spiderMan.mp4?alt=media&token=ad4ed7e7-a46f-44ef-b56f-7e1e4718cb68",
+    "https://res.cloudinary.com/netflix-mearn/video/upload/v1648849488/netflix/videos/Pulcino_Pio_-_El_Pollito_Pio_r9qpio.mp4",
   year: "2000",
   rate: 50,
   limit: "All",

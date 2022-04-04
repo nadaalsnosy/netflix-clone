@@ -46,7 +46,6 @@ const Home = ({ type }) => {
       });
     }
     setGeneresMovies(generesMoviesList);
-    console.log(generesMovies)
   };
 
   useEffect(() => {
