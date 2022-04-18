@@ -6,7 +6,7 @@ const ManyCards = (props) => {
 
   return (
     <div className=" container mt-5 pt-5 mb-5 text-white fw-bold">
-      <h1 className="mb-3">{pageTitle}</h1>
+      <h1 className="mb-3 text-capitalize">{pageTitle}</h1>
       <div className="d-flex mb-2 flex-wrap justify-content-center">
         {movies ? (
           movies.map((item, i) => (

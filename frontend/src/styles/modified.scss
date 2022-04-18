@@ -43,3 +43,8 @@
     }
   }
 }
+
+.table-hover > tbody > tr:hover > *,
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  color: #ffffff;
+}

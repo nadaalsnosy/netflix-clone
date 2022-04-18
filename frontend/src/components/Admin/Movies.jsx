@@ -20,8 +20,8 @@ const Movies = () => {
   }, [auth.token]);
 
   return (
-    <div className="container py-3 bg-body">
-      <Table striped bordered hover size="sm" className="container">
+    <div className="container py-3 bg-body bg-transparent">
+      <Table striped bordered hover size="sm" className="container text-white">
         <thead>
           <tr>
             <th></th>
