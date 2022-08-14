@@ -252,6 +252,7 @@ const FormModel = (props) => {
                       type="radio"
                       id={`series-radio`}
                       value={true}
+                      checked={(currentMovie.isSeries === true)}
                       onChange={handleChange}
                       required
                     />
@@ -262,6 +263,7 @@ const FormModel = (props) => {
                       type="radio"
                       id={`movie-radio`}
                       value={false}
+                      checked={(currentMovie.isSeries === false)}
                       onChange={handleChange}
                       required
                     />
